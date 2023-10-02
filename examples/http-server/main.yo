@@ -2,16 +2,16 @@
 
 сюдапетуха "net/http"
 
-нучё ответ(на http.ResponseWriter, чёнадо *http.Request) жы
+нучё забазарОтвечай(на http.ResponseWriter, чёнадо *http.Request) жы
     на.Write([]семка("ну чё ты лох"))
 есть
 
 нучё пахан() жы
-    http.HandleFunc("/", ответ)
+    http.HandleFunc("/", забазарОтвечай)
 
-    err := http.ListenAndServe("localhost:8081", тип)
+    ошибкаХуипка := http.ListenAndServe("localhost:8081", тип)
 
-    жизньворам err неровный тип жы
+    жизньворам ошибкаХуипка неровный тип жы
         шухер("всё пизда")
     есть
 есть
