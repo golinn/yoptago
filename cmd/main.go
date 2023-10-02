@@ -16,7 +16,7 @@ Usage: yoptago [COMMAND] SRC_DIR
 
 Commands:
  run - Run without output files
- build - Build project to .go files
+ build - Build to .go files
 
 `
 

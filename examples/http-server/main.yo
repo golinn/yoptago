@@ -1,0 +1,17 @@
+куку пахан
+
+сюдапетуха "net/http"
+
+нучё ответ(на http.ResponseWriter, чёнадо *http.Request) жы
+    на.Write([]семка("ну чё ты лох"))
+есть
+
+нучё пахан() жы
+    http.HandleFunc("/", ответ)
+
+    err := http.ListenAndServe("localhost:8081", тип)
+
+    жизньворам err неровный тип жы
+        шухер("всё пизда")
+    есть
+есть

@@ -24,10 +24,10 @@ func TranspileDirectory(path string) ([]string, error) {
 				return err
 			}
 
-			transpiledContent := transpileFile(string(body))
+			transpiledFile := transpileFile(string(body))
 
 			tempFilePath := strings.TrimSuffix(path, yoptaSuffix) + ".go"
-			err = os.WriteFile(tempFilePath, []byte(transpiledContent), 0644)
+			err = os.WriteFile(tempFilePath, []byte(transpiledFile), 0644)
 			if err != nil {
 				return err
 			}

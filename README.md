@@ -1,4 +1,4 @@
 # YoptaGo
-YoptaGo - диалект Go для чётких пацанов. Изначально идея появилась благодаря другому чёткому диалекту языка JavaScript - [YoptaScript](github.com/samgozman/YoptaScript).
+![Текст с описанием картинки](/assets/avg-yoptago-user.webp)
 
-## How to use
+## Как использовать
